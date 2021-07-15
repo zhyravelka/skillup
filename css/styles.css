@@ -1,0 +1,491 @@
+main{
+    /*верхня лінія*/
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    margin: auto;
+}
+main img{
+    /*зображення логотипа*/
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 215px;
+    display: block;
+    float: left;
+}
+.navStudio{
+    /*Верхнє меню Студія*/
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    margin-left: 453px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.navPortfolio{
+    /*Верхнє меню Портфоліо*/
+    position: absolute;
+    width: 77px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    margin-left: 552px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.navContact{
+    /*Верхнє меню Контакти*/
+    position: absolute;
+    width: 68px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    margin-left: 670px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.navEmail{
+    /*Верхнє меню Емейл*/
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    margin-left: 1078px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.navTel{
+    /*Верхнє меню Телефон*/
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    margin-left: 1263px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+header{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    margin: auto;
+    text-align: center;
+    background: #2F303A;
+}
+header h1{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 452px;
+    margin-top: 200px;
+    margin-bottom: 280px;
+    margin-right: 452px;
+}
+button.order {
+    width: 200px;
+    height: 50px;
+    color:#fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    background: #2196F3;
+    margin-left: 700px;
+    margin-top: 350px;
+    margin-bottom: 200px;
+    margin-right: 700px;
+}
+.center_container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.detalis_title{
+    /*Центральний контейнер Внимание к деталям*/
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.detalis_text_pozition{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 800px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.detalis_title_punctuality{
+    /*Пунктуальность*/
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 774px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.detalis_text_punctuality{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 515px;
+    top: 800px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.detalis_title_plan{
+    /*Центральний контейнер Планирование*/
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 774px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.detalis_text_plan{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 815px;
+    top: 800px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.detalis_title_tehnology{
+    /*Центральний контейнер Современные технологии */
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 774px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.detalis_text_tehnology{
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 1115px;
+    top: 800px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.what_we_doing{
+    position: absolute;
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+#programer-working{
+    /*Картинка в центральному контейнері*/
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1061px;
+}
+#working-interface-mobile-phones{
+    /*Картинка в центральному контейнері*/
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1061px;
+}
+#colour-selection{
+    /*Картинка в центральному контейнері*/
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;
+}
+.comanda{
+    position: absolute;
+  
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+#our_comanda{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-left: 668px;
+    margin-top: 94px;
+    margin-bottom: 512px;
+}
+.our_comanda_photo {
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.productDesigner{
+  
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 186px;
+    
+}
+.productDesigner img{
+
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1635px;
+    border-radius: 0px;
+    }
+.FrontendDeveloper{
+   
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 186px;
+}
+.FrontendDeveloper img{
+    
+    width: 270px;
+    height: 260px;
+    left: 515px;
+    top: 1635px;
+    border-radius: 0px;
+}
+.Marketing{
+   
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 186px;
+}
+.Marketing img{
+    
+    width: 270px;
+    height: 260px;
+    left: 815px;
+    top: 1635px;
+    border-radius: 0px;
+}
+.UIDesigner{
+    
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    justify-content:space-between;
+    margin: 0 auto;
+    margin-top: 186px;
+}
+.UIDesigner img{
+   
+    width: 270px;
+    height: 260px;
+    left: 1115px;
+    top: 1635px;
+    border-radius: 0px;
+}
+.our_comanda_name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: 30px;
+    color: #212121;
+}
+.our_comanda_info{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom:30px;
+}
+footer{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+footer img{
+    margin-top: 60px;
+    margin-left: 215px;
+}
+.adress{
+    width: 231px;
+    height: 21px;
+    margin-top: 20px;
+    margin-left: 215px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.email{
+    width: 231px;
+    height: 21px;
+    margin-top: 9px;
+    margin-left: 215px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel{
+    width: 231px;
+    height: 21px;
+    margin-top: 9px;
+    margin-left: 215px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
